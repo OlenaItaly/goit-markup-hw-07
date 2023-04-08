@@ -1,0 +1,34 @@
+@media screen and (min-width: 768px){
+    .conteiner {
+       width: 768px;
+    }
+/* -----section HERO-------- */
+  .hero {
+   max-width: 768px;
+    height: 436px;
+   }
+   .hero {
+     background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/tablet-img/Dark-bg-tablet.jpg);
+  }
+
+/* ------section ABOUT------- */
+  .about .item {
+  width: calc((100% - 24px) / 2);
+ 
+}
+ .about .list {
+     gap: 24px;
+ }
+
+ /* -----section WORK---------- */
+
+ .our-team .list {
+    row-gap: 64px;
+    column-gap: 24px;
+ }
+}
+

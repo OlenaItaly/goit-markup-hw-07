@@ -73,6 +73,7 @@ h1,
 h2,
 h3,
 h4,
+h5,
 p {
   margin: 0;
 }
@@ -116,8 +117,8 @@ body {
 /* ==============TITLE==================== */
 .hero .title-h-one {
   font-weight: 700;
-  font-size: 56px;
-  line-height: 1.07;
+  font-size: 36px;
+  line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--color-text-white);
@@ -133,15 +134,23 @@ body {
 }
 
 .title-h-three {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
   letter-spacing: 0.02em;
 }
 
 .title-h-two,
 .title-h-three {
   color: var(--colore-title);
+}
+
+.title-h-five {
+   font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 
 .visually-hidden {
@@ -204,7 +213,7 @@ body {
 
 /* ===============CONTEINER================ */
 .conteiner {
-  max-width: 1158px;
+  width: 100%;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
@@ -325,8 +334,8 @@ body {
 
 /* ===========section Hero============== */
 .hero {
-  max-width: 1440px;
-  height: 600px;
+  max-width: 428px;
+  height: 432px;
   margin-left: auto;
   margin-right: auto;
   background: var(--colore-background-section-navy-blu);
@@ -334,15 +343,17 @@ body {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/hero-bg.jpg);
+    url(../images/mobile-img/Dark-bg-mobil.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  padding-top: 188px;
-  padding-bottom: 188px;
+  padding-top: 112px;
 }
+
+/* } padding-top: 188px;
+  padding-bottom: 188px; */
 .hero .title-h-one {
-  max-width: 496px;
+  max-width: 320px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -350,64 +361,61 @@ body {
   min-width: 169px;
   height: 56px;
   padding: 16px 32px;
-  margin-top: 48px;
+  margin-top: 72px;
   margin-left: auto;
   margin-right: auto;
   border: none;
 }
+
+  
+
 /* ============section ABOUT================= */
 .about {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding-top: 96px;
+  padding-bottom: 96px;
 }
 
 .about .list {
   display: flex;
+ flex-wrap: wrap;
+  gap: 72px;
+}
 
-  gap: 24px;
-}
 .about .item {
-  width: calc((100% - 72px) / 4);
+  width: 100%;
 }
+
 .about-card {
-  display: flex;
+  display: none;
   height: 112px;
   background-color: var(--color-background-about-icon);
   border-radius: 4px;
   align-items: center;
   justify-content: center;
 }
+
 .about .title-h-three {
-  margin-top: 8px;
+  text-align: center;
   margin-bottom: 8px;
 }
+
 /* ============section WORK ==================*/
 .work {
-  padding-bottom: 120px;
-}
-.work .list {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 24px;
+  display: none;
 }
 
-.work .title-h-two {
-  margin-bottom: 72px;
-}
-.work .item {
-  width: calc((100% - 48px) / 3);
-}
 /* ============section Our Team ==============*/
 .our-team {
   background: var(--colore-background-section-grey);
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding-top: 96px;
+  padding-bottom: 96px;
 }
 
 .our-team .list {
   display: flex;
   flex-wrap: wrap;
-  gap: 24px;
+  justify-content: center;
+  gap: 24px ;
 }
 
 .our-team .title-h-two {
@@ -415,8 +423,8 @@ body {
 }
 
 .list .team-item {
-  flex-direction: column;
-  width: calc((100% - 72px) / 4);
+  /* flex-direction: column; */
+  /* width: calc((100% - 72px) / 4); */
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
