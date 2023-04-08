@@ -19,10 +19,7 @@
   letter-spacing: 0.02em;
 }
 
-.title-h-two,
-.title-h-three {
-  color: var(--colore-title);
-}
+
 /* -----section HERO-------- */
   .hero {
     max-width: 1440px;
@@ -98,9 +95,7 @@
 }
 
 /* ---------section CUSTOMERS-------- */
-.customers .conteiner {
-  width: 1158px;
- }
+
 .customers {
   padding-top: 120px;
   padding-bottom: 120px;

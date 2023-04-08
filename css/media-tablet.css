@@ -32,15 +32,12 @@
  }
 
  /* ----section CUSTOMERS------- */
- .customers .conteiner {
-  width: 582px;
- }
-
+ 
  .customers-list {
   row-gap: 72px;
   column-gap: 24px;
  }
- 
+
  .customers-item {
   width: 168px;
  
@@ -49,5 +46,10 @@
 .customers-link {
    width: 168px;
 }
-}
+@media screen  and (max-width: 1157px) {
+   .customers .conteiner {
+  width: 582px;
+ }
 
+}
+}
