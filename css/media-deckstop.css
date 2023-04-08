@@ -11,14 +11,6 @@
   color: var(--color-text-white);
 }
 
-.title-h-two {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.11;
-  text-align: center;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-}
 
 .title-h-three {
   font-weight: 500;
@@ -51,7 +43,6 @@
 }
 
 .about .list {
-  display: flex;
 
   gap: 24px;
 }
@@ -96,11 +87,6 @@
   padding-bottom: 120px;
 }
 
-.our-team .list {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 24px;
-}
 
 .our-team .title-h-two {
   margin-bottom: 72px;
@@ -109,43 +95,8 @@
 .list .team-item {
   flex-direction: column;
   width: calc((100% - 72px) / 4);
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-  border-radius: 0px 0px 4px 4px;
-  background-color: var(--colore-menu-background);
 }
-.team-text {
-  padding: 32px 16px;
-  text-align: center;
-}
-.title-h-three {
-  margin-bottom: 8px;
-}
-.team-text > .text {
-  margin-bottom: 8px;
-}
-.social-list {
-  display: flex;
-  justify-content: center;
-}
-.social-item {
-  width: 40px;
-  height: 40px;
-}
-.social-link {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  height: 100%;
-  border-radius: 50%;
-  background-color: var(--colore-backgrond-icon);
 
-  transition: background-color var(--transition-duration)
-    var(--transition-timing-function);
-}
-.social-link:hover,
-.social-link:focus {
-  background-color: var(--colore-backgrond-icon-hf);
-}
+
+
 }
