@@ -459,8 +459,8 @@ body {
 }
 /* ================= CUSTOMERS=============== */
 .customers {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding-top: 96px;
+  padding-bottom: 96px;
 }
 .customers .title-h-two {
   margin-bottom: 72px;
@@ -468,16 +468,18 @@ body {
 .customers-list {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  flex-wrap: wrap;
+ row-gap: 72px;
+ column-gap: 16px;
 }
 .customers-item {
-  width: 168px;
+  width: 190px;
   height: 88px;
 }
 
 .customers-link {
   display: flex;
-  width: 168px;
+  width: 190px;
   height: 88px;
   border: 1px solid var(--colore-customers-icon);
   border-radius: 4px;

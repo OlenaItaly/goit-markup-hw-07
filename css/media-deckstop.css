@@ -64,7 +64,7 @@
 
 /* ------section WORK----- */
 .work {
-  display: inline;
+  display: block;
   padding-bottom: 120px;
 }
 .work .list {
@@ -97,6 +97,20 @@
   width: calc((100% - 72px) / 4);
 }
 
-
-
+/* ---------section CUSTOMERS-------- */
+.customers .conteiner {
+  width: 1158px;
+ }
+.customers {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.customers .title-h-two {
+  margin-bottom: 72px;
+}
+.customers-list {
+  
+   justify-content: space-between;
+   
+}
 }

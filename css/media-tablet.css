@@ -30,5 +30,24 @@
     row-gap: 64px;
     column-gap: 24px;
  }
+
+ /* ----section CUSTOMERS------- */
+ .customers .conteiner {
+  width: 582px;
+ }
+
+ .customers-list {
+  row-gap: 72px;
+  column-gap: 24px;
+ }
+ 
+ .customers-item {
+  width: 168px;
+ 
+}
+
+.customers-link {
+   width: 168px;
+}
 }
 
