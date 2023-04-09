@@ -2,5 +2,36 @@
    .conteiner {
     width: 428px;
    }
-}
 
+ 
+}
+ @media screen and (max-width: 767px) {
+  .footer > .conteiner {
+     flex-wrap: wrap;
+  gap: 72px;
+  }
+
+  .title-subcribe {
+   text-align: center;
+  }
+
+  .footer-subscribe {
+   flex-wrap: wrap;
+   gap: 16px;
+   justify-content: center;
+  }
+  .footer .logo-f {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: center;
+  align-items: center;
+  }
+ .title-h-four {
+ text-align: center;
+ }
+ .social-footer {
+   margin-left: auto;
+   margin-right: auto;
+ }
+}

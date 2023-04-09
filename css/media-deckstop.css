@@ -108,4 +108,104 @@
    justify-content: space-between;
    
 }
+/* --------footer-------------- */
+.accent-footer {
+  color: var(--coloro-logo-f);
+}
+.footer {
+  background: var(--colore-footer-background);
+  color: var(--colore-footer-text);
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.footer-text {
+  max-width: 264px;
+  margin-top: 16px;
+}
+
+.footer > .conteiner {
+  display: flex;
+}
+.social-footer {
+  margin-left: 120px;
+  margin-right: 80px;
+}
+.title-h-four {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.title-h-four {
+  margin-bottom: 16px;
+}
+.social-footer .social-link {
+  background-color: rgba(255, 255, 255, 0.1);
+
+  transition: background-color var(--transition-duration)
+    var(--transition-timing-function);
+}
+.social-footer .social-link:hover,
+.social-footer .social-link:focus {
+  background-color: var(--color-backgroun-social-hf);
+}
+.social-footer .social-list {
+  gap: 16px;
+}
+
+.title-subcribe {
+  margin-bottom: 16px;
+}
+
+.footer-label {
+  position: relative;
+}
+
+.footer-email {
+  position: absolute;
+  font-size: 12px;
+  line-height: 2;
+  left: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.footer-subscribe {
+  display: flex;
+}
+.footer-input-email {
+  width: 264px;
+  height: 40px;
+  padding-left: 16px;
+  font-size: 16px;
+  border: none;
+  border: 1px solid var(--color-buton-white);
+  background-color: transparent;
+  border-radius: 4px;
+  color: var(--color-text-white);
+}
+
+.footer-btn-subscribe {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+
+  height: 40px;
+  padding: 8px 24px;
+  border: none;
+  border-radius: 4px;
+  margin-left: 24px;
+
+  background-color: var(--color-button-primery);
+  color: var(--color-buton-white);
+  transition: background-color var(--transition-duration)
+    var(--transition-timing-function);
+  cursor: pointer;
+}
+
+.footer-btn-subscribe:hover,
+.footer-btn-subscribe:focus {
+  background-color: var(--color-button-secondary);
+}
+
 }
