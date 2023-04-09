@@ -102,6 +102,7 @@ img {
   max-width: 100%;
   height: auto;
 }
+
 body {
   background: var(--colore-background-body);
   color: var(--color-text);
@@ -220,7 +221,10 @@ body {
   margin-right: auto;
 }
 /* ===============HEADER=================== */
-.page-header > .conteiner {
+.icon-burger {
+  fill:#2e2f42;
+}
+/* .page-header > .conteiner {
   display: flex;
   align-items: center;
 }
@@ -328,7 +332,7 @@ body {
 
   background: var(--color-activ-line);
   border-radius: 2px;
-}
+} */
 
 /*================= SECTION ================== */
 
