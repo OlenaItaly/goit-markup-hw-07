@@ -2,6 +2,16 @@
     .conteiner {
        width: 768px;
     }
+    /* --------------HEADER------ */
+     .mobile-menu-open {
+      display: none;
+    }
+    .mobile-menu-conteiner {
+      display: none;
+    }
+    .mobile-menu-close {
+      display: none;
+    } 
 /* -----section HERO-------- */
   .hero {
    max-width: 768px;

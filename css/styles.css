@@ -221,8 +221,32 @@ body {
   margin-right: auto;
 }
 /* ===============HEADER=================== */
-.icon-burger {
-  fill:#2e2f42;
+/* .icon-burger {
+  stroke:#2e2f42;
+} */
+
+.page-header > .conteiner {
+
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  color: var(--colore-logo);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.accent-header {
+  color: var(--coloro-logo-h);
+}
+.mobile-menu-open {
+  border: none;
+  background-color: transparent;
+  padding: 0;
+  height: 22px;
 }
 /* .page-header > .conteiner {
   display: flex;
@@ -240,15 +264,7 @@ body {
   align-items: center;
 }
 
-.logo {
-  font-family: "Raleway", sans-serif;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.17;
-  color: var(--colore-logo);
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-}
+
 
 .page-header .logo {
   margin-right: 76px;
