@@ -1,86 +1,173 @@
-@media screen and (min-width: 768px){
-    .conteiner {
-       width: 768px;
-    }
-    /* --------------HEADER------ */
-     .mobile-menu-open {
-      display: none;
-    }
-    .mobile-menu-conteiner {
-      display: none;
-    }
-    .mobile-menu-close {
-      display: none;
-    } 
-/* -----section HERO-------- */
-  .hero {
-   max-width: 768px;
-    height: 436px;
-   }
-   .hero {
-     background-image: linear-gradient(
-      rgba(46, 47, 66, 0.7),
-      rgba(46, 47, 66, 0.7)
-    ),
-    url(../images/tablet-img/Dark-bg-tablet.jpg);
+@media screen and (min-width: 768px) {
+  .conteiner {
+    width: 768px;
+  }
+  /* --------------HEADER------ */
+  .mobile-menu-open {
+    display: none;
+  }
+  .mobile-menu-conteiner {
+    display: none;
+  }
+  /* .mobile-menu-close {
+    display: none;
+  } */
+  .page-header > .conteiner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .page-nav {
+    display: flex;
+    gap: 120px;
+  }
+  .menu {
+    display: flex;
+    align-items: center;
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--colore-menu-link);
+    gap: 40px;
+  }
+  /* 
+  .address .list {
+    display: flex;
+    align-items: center;
+  } */
+
+  .address {
+    margin-left: auto;
   }
 
-/* ------section ABOUT------- */
+  /* .mail {
+    display: flex;
+  }
+
+  .mail {
+    margin-right: 40px;
+  } */
+
+  .address .link {
+    
+    cursor: pointer;
+  }
+
+  .address {
+    font-style: normal;
+   
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+  }
+
+  .menu .link,
+  .mail .link,
+  .tel .link {
+    transition: color var(--transition-duration)
+      var(--transition-timing-function);
+  }
+  .menu .link:hover,
+  .menu .link:focus,
+  .menu .link:active,
+  .mail .link:hover,
+  .mail .link:focus,
+  .mail .link:active,
+  .tel .link:hover,
+  .tel .link:focus,
+  .tel .link:active {
+    color: var(--colore-menu-hfa);
+  }
+  .ativ {
+    position: relative;
+  }
+  .current {
+    color: var(--colore-menu-hfa);
+  }
+  .current::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    left: 0px;
+    top: 44px;
+
+    background: var(--color-activ-line);
+    border-radius: 2px;
+  }
+  /* -----section HERO-------- */
+  .hero {
+    max-width: 768px;
+    height: 436px;
+  }
+  .hero {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/tablet-img/Dark-bg-tablet.jpg);
+  }
+  .hero .title-h-one {
+    max-width: 496px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* ------section ABOUT------- */
   .about .item {
-  width: calc((100% - 24px) / 2);
- 
-}
- .about .list {
-     gap: 24px;
- }
+    width: calc((100% - 24px) / 2);
+  }
+  .about .list {
+    gap: 24px;
+  }
 
- /* -----section WORK---------- */
+  /* -----section WORK---------- */
 
- .our-team .list {
+  .our-team .list {
     row-gap: 64px;
     column-gap: 24px;
- }
-
- /* ----section CUSTOMERS------- */
- 
- .customers-list {
-  row-gap: 72px;
-  column-gap: 24px;
- }
-
- .customers-item {
-  width: 168px;
- 
-}
-
-.customers-link {
-   width: 168px;
-}
-@media screen  and (max-width: 1157px) {
-   .customers .conteiner {
-  width: 582px;
- }
-
-}
-/* ---------footer------------- */
-.footer-input-email {
-  width: 264px;
-}
-
-@media screen and (max-width: 1157px) {
-  .footer > .conteiner {
-     flex-wrap: wrap;
- 
   }
-   .footer .conteiner {
-    width: 582px;
-    display: flex;
-    flex-wrap: wrap;
-    column-gap: 24px;
+
+  /* ----section CUSTOMERS------- */
+
+  .customers-list {
     row-gap: 72px;
-   }
-}
-.footer-text {
-  max-width: 264px; 
-}
+    column-gap: 24px;
+  }
+
+  .customers-item {
+    width: 168px;
+  }
+
+  .customers-link {
+    width: 168px;
+  }
+  @media screen and (max-width: 1157px) {
+    .customers .conteiner {
+      width: 582px;
+    }
+  }
+  /* ---------footer------------- */
+  .footer-input-email {
+    width: 264px;
+  }
+
+  @media screen and (max-width: 1157px) {
+    .footer > .conteiner {
+      flex-wrap: wrap;
+    }
+    .footer .conteiner {
+      width: 582px;
+      display: flex;
+      flex-wrap: wrap;
+      column-gap: 24px;
+      row-gap: 72px;
+    }
+  }
+  .footer-text {
+    max-width: 264px;
+  }
 }
