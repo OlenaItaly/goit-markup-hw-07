@@ -32,36 +32,18 @@
     color: var(--colore-menu-link);
     gap: 40px;
   }
-  /* 
-  .address .list {
-    display: flex;
-    align-items: center;
-  } */
-
-  .address {
-    margin-left: auto;
-  }
-
-  /* .mail {
-    display: flex;
-  }
-
-  .mail {
-    margin-right: 40px;
-  } */
-
-  .address .link {
-    
-    cursor: pointer;
-  }
 
   .address {
     font-style: normal;
-   
     font-weight: 400;
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
+
+    margin-left: auto;
+  }
+  .tel {
+    margin-top: 12px;
   }
 
   .menu .link,
@@ -110,8 +92,25 @@
       ),
       url(../images/tablet-img/Dark-bg-tablet.jpg);
   }
+   @media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .hero {
+   background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/mobile-img/Dark-bg-tablet@2x.jpg);
+  }
+} 
+
   .hero .title-h-one {
     max-width: 496px;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
     margin-left: auto;
     margin-right: auto;
   }
@@ -169,5 +168,10 @@
   }
   .footer-text {
     max-width: 264px;
+  }
+  /* -----------modal--------- */
+  .modal {
+    width: 408px;
+    
   }
 }
