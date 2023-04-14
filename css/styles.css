@@ -215,7 +215,7 @@ body {
 
 /* ===============CONTEINER================ */
 .conteiner {
-  width: 100%;
+  /* width: 100%; */
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
@@ -361,7 +361,7 @@ body {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/mobile-img/Dark-bg-mobil.jpg);
+    url(../images/hero/Dark-bg-mobil.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -375,7 +375,7 @@ body {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/mobile-img/Dark-bg-mobil@2x.jpg);
+    url(../images/hero/Dark-bg-mobil@2x.jpg);
   }
 } 
 /* } padding-top: 188px;
@@ -500,14 +500,15 @@ body {
  row-gap: 72px;
  column-gap: 16px;
 }
-.customers-item {
+/* .customers-item {
   width: 190px;
   height: 88px;
-}
+} */
 
 .customers-link {
   display: flex;
-  width: 190px;
+  /* width: 190px; */
+ 
   height: 88px;
   border: 1px solid var(--colore-customers-icon);
   border-radius: 4px;
@@ -583,19 +584,19 @@ body {
   position: relative;
 }
 
-.footer-email {
+/* .footer-email {
   position: absolute;
   font-size: 12px;
   line-height: 2;
   left: 16px;
   top: 50%;
   transform: translateY(-50%);
-}
+} */
 .footer-subscribe {
   display: flex;
 }
 .footer-input-email {
-  width: 398px;
+  width: 264px;
   height: 40px;
   padding-left: 16px;
   font-size: 16px;
@@ -606,6 +607,20 @@ body {
   color: var(--color-text-white);
 }
 
+/* 
+
+    padding: 8px 16px;
+    width: 264px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    color: var(--main);
+    background-color: var(--dark);
+} */
 .footer-btn-subscribe {
   display: flex;
   justify-content: center;
@@ -652,11 +667,11 @@ body {
 }
 .modal {
   position: absolute;
- width: 408px;
+
  height: 576px;
-  top: 50%;
-  left: 50%;
-  padding: 72px 24px 24px 24px;
+ /* top: 50%;
+  left: 50%; */
+  /* padding: 72px 24px 24px 24px; */
   background: var(--colore-background-modal);
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
     0px 2px 1px rgba(0, 0, 0, 0.2);
