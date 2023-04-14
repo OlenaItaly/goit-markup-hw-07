@@ -33,15 +33,29 @@
     gap: 40px;
   }
 
-  .address {
+  .address .link {
+    font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
-
+  color: var(--color-text);
     margin-left: auto;
+     cursor: pointer;
   }
+  /* .address .link {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-text);
+ 
+}
+
+ */
   .tel {
     margin-top: 12px;
   }
@@ -174,4 +188,47 @@
     width: 408px;
     
   }
+  /* ------Porfolio---------- */
+  .nav {
+  padding-bottom: 120px;
+  padding-top: 96px;
+}
+.button-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+
+  margin-bottom: 72px;
+  gap: 24px;
+}
+.button {
+  border-color: var(--color-button-border);
+  padding: 12px 24px;
+  border: transparent;
+}
+
+.card-box {
+  padding: 0;
+  margin: 0;
+
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+
+.card-item {
+  width: calc((100% - 24px) / 2);
+}
+.card-item .link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  transition: box-shadow var(--transition-duration)
+    var(--transition-timing-function);
+}
+
 }
