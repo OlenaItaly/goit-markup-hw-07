@@ -90,9 +90,9 @@
   .current {
     color: var(--colore-menu-hfa);
   }
-   .mobile-tel > .link {
+  .mobile-tel > .link {
     color: var(--colore-logo);
-  } 
+  }
   .mobile-mail > .link {
     font-weight: 500;
     font-size: 20px;
@@ -115,7 +115,6 @@
   }
   .mobile-tel {
     margin-bottom: 40px;
-   
   }
   .mobile-geom {
     width: 100%;
@@ -146,7 +145,8 @@
       padding-left: 15px;
       padding-right: 15px;
     }
-    .social-mobile-menu.social-list {
+
+    .social-mobile-menu .social-list {
       gap: 0;
       justify-content: space-between;
     }
@@ -154,7 +154,7 @@
       font-size: 28px;
     }
     .hero .title-h-one {
-       font-size: 32px;
+      font-size: 32px;
     }
     .modal {
       width: 80%;
@@ -196,5 +196,8 @@
   .social-footer {
     margin-left: auto;
     margin-right: auto;
+  }
+  .footer-btn-subscribe {
+  margin-left: 24px;
   }
 }
