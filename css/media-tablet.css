@@ -12,6 +12,12 @@
   /* .mobile-menu-close {
     display: none;
   } */
+  
+.page-header > .conteiner {
+
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
   .page-header > .conteiner {
     display: flex;
     align-items: center;
@@ -43,6 +49,10 @@
   color: var(--color-text);
     margin-left: auto;
      cursor: pointer;
+  }
+  .address .mail,
+  .address .tel {
+  font-size: 0;
   }
   /* .address .link {
   font-family: "Roboto", sans-serif;
@@ -96,7 +106,7 @@
   }
   /* -----section HERO-------- */
   .hero {
-    max-width: 768px;
+    /* max-width: 768px; */
     height: 436px;
   }
   .hero {
@@ -128,13 +138,16 @@
     margin-left: auto;
     margin-right: auto;
   }
-
+.hero .button {
+  margin-top: 36px;
+}
   /* ------section ABOUT------- */
   .about .item {
     width: calc((100% - 24px) / 2);
   }
   .about .list {
-    gap: 24px;
+    row-gap: 72px;
+    column-gap: 24px;
   }
 
   /* -----section WORK---------- */

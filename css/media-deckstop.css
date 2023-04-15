@@ -140,7 +140,9 @@ gap: 0;
     url(../images/hero/Dark-bg-deckstop@2x.jpg);
   }
 } 
-
+.hero .button {
+  margin-top: 48px;
+}
 /* ---section ABOUT--------- */
   .about {
   padding-top: 120px;
@@ -166,7 +168,8 @@ gap: 0;
   margin-top: 8px;
   margin-bottom: 8px;
 }
-
+.about .title-h-three {
+  text-align: start;}
 /* ------section WORK----- */
 .work {
   display: block;
