@@ -2,9 +2,7 @@
   .conteiner {
     width: 428px;
   }
-  .modal {
-    width: 392px;
-  }
+  
   .footer-input-email {
     width: 398px;
   }
@@ -12,7 +10,8 @@
     width: 190px;
   }
   .modal {
-    width: 408px;
+    width: 392px;
+    height: 586px;
     top: 50%;
     left: 50%;
     padding: 72px 24px 24px 24px;
@@ -198,6 +197,6 @@
     margin-right: auto;
   }
   .footer-btn-subscribe {
-  margin-left: 24px;
+    margin-left: 24px;
   }
 }

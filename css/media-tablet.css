@@ -171,6 +171,12 @@
   .customers-link {
     width: 168px;
   }
+ /* -----------modal--------- */
+ .modal {
+    width: 408px;
+    height: 586px;
+  }
+  
   @media screen and (max-width: 1157px) {
     .customers .conteiner {
       width: 582px;
@@ -180,6 +186,7 @@
   .footer-input-email {
     width: 264px;
   }
+ 
 
   @media screen and (max-width: 1157px) {
     .footer > .conteiner {
@@ -196,11 +203,11 @@
   .footer-text {
     max-width: 264px;
   }
-  /* -----------modal--------- */
+  /* -----------modal---------
   .modal {
     width: 408px;
-    
-  }
+    height: 586px;
+  } */
   /* ------Porfolio---------- */
   .nav {
   padding-bottom: 120px;
