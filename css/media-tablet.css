@@ -149,6 +149,11 @@
     row-gap: 72px;
     column-gap: 24px;
   }
+  .about .title-h-three {
+  text-align: start;
+ 
+}
+
 
   /* -----section WORK---------- */
 
@@ -176,7 +181,7 @@
     width: 408px;
     height: 586px;
   }
-  
+
   @media screen and (max-width: 1157px) {
     .customers .conteiner {
       width: 582px;
@@ -186,7 +191,9 @@
   .footer-input-email {
     width: 264px;
   }
- 
+   .footer-btn-subscribe {
+    margin-left: 24px;
+  } 
 
   @media screen and (max-width: 1157px) {
     .footer > .conteiner {
